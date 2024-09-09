@@ -9,8 +9,8 @@ This project involves scraping approximately 15,000 house listings from the Emla
 
 ## Project Structure
 
-- `scraper.py`: Python script using Selenium to scrape house listings from the EmlakJet website.
-- `data/`: Directory containing the raw scraped data.
+- `scraper.ipynb`: Python script using Selenium to scrape house listings from the EmlakJet website.
+- `adverts.csv`: Directory containing the raw scraped data.
 - `README.md`: This file, providing an overview and instructions for the project.
 
 ## Getting Started
