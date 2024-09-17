@@ -64,7 +64,7 @@ Ensure that **Selenium** and **Chrome WebDriver** are correctly installed and co
 - time
 
 ## Kaggle Notebook
-For a detailed walkthrough of the data scraping and subsequent analysis, you can refer to my [Kaggle notebook here](https://www.kaggle.com/code/gokhanergul/house-price-prediction-with-emlakjet-data-cleaning).
+For a detailed walkthrough of the data scraping and subsequent analysis, you can refer to my [Kaggle notebook here](https://www.kaggle.com/code/gokhanergul/house-price-prediction-with-emlakjet-data-scrape).
 
 ## Contact
 For any inquiries or suggestions, feel free to reach out:
