@@ -1,32 +1,71 @@
-# House-Price-Prediction-with-EmlakJet-Data-Scrape
-In this project, I scraped nearly 15,000 house listings from the EmlakJet website, focusing on properties in Istanbul. The repository includes scripts used for web scraping.This project serves as a resource for those interested in gathering and working with real estate data using Python.
+# House Price Prediction with EmlakJet Data Scraping
 
-# Istanbul House Listings Scraping Project
+## Project Overview
+This project involves scraping approximately 15,000 house listings from the EmlakJet website, specifically focusing on properties located in Istanbul. The scraping was conducted using **Selenium**, a powerful web automation tool. The dataset generated from this process can be used for various data analysis or machine learning tasks, including house price prediction.
 
-## Overview
+This repository serves as a resource for those interested in gathering real estate data using Python and applying it to predictive models.
 
-This project involves scraping approximately 15,000 house listings from the EmlakJet website, specifically focusing on properties located in Istanbul. The scraping process was conducted using Selenium, a powerful tool for web automation. The dataset generated from this scraping process can be used for various data analysis or machine learning tasks, such as house price prediction.
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Dataset](#dataset)
+- [Data Scraping](#data-scraping)
+- [Collected Features](#collected-features)
+- [Usage](#usage)
+- [Requirements](#requirements)
+- [Kaggle Notebook](#kaggle-notebook)
+- [Contact](#contact)
 
-## Project Structure
+## Dataset
+The dataset was scraped from the EmlakJet website and contains approximately 15,000 house listings, all located in **Istanbul**. Each listing includes information such as property size, number of rooms, heating type, and the price.
 
-- `scraper.ipynb`: Python script using Selenium to scrape house listings from the EmlakJet website.
-- `adverts.csv`: Directory containing the raw scraped data.
-- `README.md`: This file, providing an overview and instructions for the project.
+### Collected Features:
+The following features were collected from each house listing:
+- **Net Metrekare**: Net square meters
+- **Oda Sayısı**: Number of rooms
+- **Bulunduğu Kat**: Floor level
+- **Isıtma Tipi**: Type of heating system
+- **Krediye Uygunluk**: Whether the property is suitable for a mortgage
+- **Banyo Sayısı**: Number of bathrooms
+- **WC Sayısı**: Number of toilets
+- **Brüt Metrekare**: Gross square meters
+- **Binanın Yaşı**: Age of the building
+- **Binanın Kat Sayısı**: Number of floors in the building
+- **Site İçerisinde**: Whether the property is inside a residential complex
+- **Balkon Durumu**: Balcony availability
+- **Eşya Durumu**: Furnishing status
+- **Price**: Price of the property
+- **Location**: The location of the property (city, district)
 
-## Getting Started
+## Data Scraping
+Web scraping was done using **Selenium**, a browser automation tool that allows interaction with dynamic web pages. Here's a brief overview of the scraping process:
+- **Website**: [EmlakJet](https://www.emlakjet.com/)
+- **Tool**: Selenium (with Chrome WebDriver)
+- **Method**: Interaction with the EmlakJet website, navigating through multiple pages and extracting relevant data points.
 
-To replicate this project or use the scraped data, follow the steps below:
+The scripts for scraping the data are provided in the repository.
 
-### Prerequisites
+## Usage
+To replicate the web scraping process or to use the provided scripts for your own purposes:
+1. Clone the repository:
+     git clone https://github.com/yourusername/house-price-scraping-emlakjet.git
+2. Install the required libraries:
+    pip install -r requirements.txt
+3. Run the scraping script:
+    python scraper.ipynp
 
-Make sure you have the following installed:
 
+Ensure that **Selenium** and **Chrome WebDriver** are correctly installed and configured on your machine.
+
+## Requirements
 - Python 3.x
-- Selenium WebDriver
-- A compatible browser (e.g., Chrome, Firefox) and the corresponding WebDriver
-- Required Python libraries (`selenium`, `pandas`, etc.)
+- Selenium
+- Chrome WebDriver
+- Pandas
+- BeautifulSoup (for HTML parsing)
 
-You can install the necessary Python libraries using the following command:
+## Kaggle Notebook
+For a detailed walkthrough of the data scraping and subsequent analysis, you can refer to my [Kaggle notebook here](https://www.kaggle.com/code/gokhanergul/house-price-prediction-with-emlakjet-data-cleaning).
 
-```bash
-pip install -r requirement
+## Contact
+For any inquiries or suggestions, feel free to reach out:
+- **Email**: gokhannergull@gmail.com
