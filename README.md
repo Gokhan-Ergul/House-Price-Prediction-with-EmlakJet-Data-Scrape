@@ -1,5 +1,5 @@
 # House Price Prediction with EmlakJet Data Scraping
-
+#### For a detailed walkthrough of the data scraping and subsequent analysis, you can refer to [my Kaggle notebook](https://www.kaggle.com/code/gokhanergul/house-price-prediction-with-emlakjet-data-scrape) here.
 ## Project Overview
 This project involves scraping approximately 15,000 house listings from the EmlakJet website, specifically focusing on properties located in Istanbul. The scraping was conducted using **Selenium**, a powerful web automation tool. The dataset generated from this process can be used for various data analysis or machine learning tasks, including house price prediction.
 
